@@ -152,8 +152,8 @@ body {
   background-color: darkcyan;
 }
 
-.text-container {
-  padding: 15px 15px;
+.text-container {  text-align: left;
+  padding: 20px 15px 10px;
 }
 
 .text-container > p:first-child,
@@ -166,6 +166,6 @@ body {
 }
 
 .text-container > p:last-child {
-  font-style: italic;
+  font-weight: 700;
 }
 
