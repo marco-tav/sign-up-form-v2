@@ -70,6 +70,24 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Fraunces';
+  src: url('../fonts/Fraunces/fraunces-variablefont_softwonkopszwght-webfont.woff2') format('woff2'),
+       url('../fonts/Fraunces/fraunces-variablefont_softwonkopszwght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Fraunces Italic';
+  src: url('../fonts/Fraunces/fraunces-italic-variablefont_softwonkopszwght-webfont.woff2') format('woff2'),
+       url('../fonts/Fraunces/fraunces-italic-variablefont_softwonkopszwght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 html {
   box-sizing: border-box;
 }
