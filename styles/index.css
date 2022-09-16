@@ -151,3 +151,21 @@ body {
   min-height: calc(100vh - 200px);
   background-color: darkcyan;
 }
+
+.text-container {
+  padding: 15px 15px;
+}
+
+.text-container > p:first-child,
+.text-container > p {
+  margin-top: 0px;
+  font-family: 'IBM Plex Sans';
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.text-container > p:last-child {
+  font-style: italic;
+}
+
