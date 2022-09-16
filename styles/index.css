@@ -95,3 +95,19 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.image-container {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  background-image: url('../resources/greg-rosenke-QtXy0uoJtxs-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  min-height: 300px;
+}
