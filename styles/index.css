@@ -182,12 +182,12 @@ form {
   padding: 10px 15px;
 }
 
-form > .form-col {
+form > .form-row {
   display: flex;
   flex-direction: column;
 }
 
-form > .form-col > input {
+form > .form-row > input {
   margin-bottom: 10px;
   border: 1px solid gray;
   border-radius: 4px;
@@ -196,9 +196,9 @@ form > .form-col > input {
   height: 25px;
 }
 
-form > .form-col > label {
+form > .form-row > label {
   font-family: 'IBM Plex Sans';
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: white;
   font-weight: 400;
   margin-bottom: 3px;
