@@ -161,9 +161,15 @@ body {
   max-width: 550px;
 }
 
-.text-container {  text-align: left;
+.text-container {
   padding: 20px 15px 10px;
   text-align: left;
+}
+
+@media only screen and (min-width: 450px) {
+  .text-container {
+    text-align: justify;
+  }
 }
 
 .text-container > p:first-child,
