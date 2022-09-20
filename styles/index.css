@@ -178,7 +178,7 @@ body {
 .text-container > p:last-child {
   font-weight: 700;
   font-size: 1.5rem;
-  color: #ffc500;
+  color: rgb(255, 190, 0);
 }
 
 form {
