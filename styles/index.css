@@ -198,8 +198,8 @@ form > .form-row > input {
   border: 1px solid gray;
   border-radius: 4px;
   font-family: 'IBM Plex Sans';
-  font-size: 0.9rem;
-  height: 25px;
+  font-size: 1rem;
+  height: 30px;
   padding-left: 5px;
 }
 
