@@ -184,7 +184,7 @@ body {
 .text-container > p:last-child {
   font-weight: 700;
   font-size: 1.5rem;
-  color: rgb(255, 190, 0);
+  color: orange;
 }
 
 form {
@@ -216,4 +216,34 @@ form > .form-row > label {
   color: white;
   font-weight: 400;
   margin-bottom: 3px;
+}
+
+.create-account {
+  padding: 10px 15px;
+  font-family: 'IBM Plex Sans';
+}
+
+.create-account > button {
+  background-color: orange;
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin-top: 20px;
+  height: 35px;
+  width: 200px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+}
+
+.create-account > button:hover {
+  background-color: #f7a100;
+}
+
+.create-account > button:active {
+  background-color: #eb9800;
+}
+
+.create-account > p,
+.create-account > p > a {
+  color: white;
 }
