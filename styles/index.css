@@ -221,6 +221,9 @@ form > .form-row > label {
 .create-account {
   padding: 10px 15px;
   font-family: 'IBM Plex Sans';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .create-account > button {
