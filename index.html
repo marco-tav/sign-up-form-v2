@@ -28,27 +28,39 @@
       <div class="form-container">
         <form action="#" method="post" id="sign-up-form">
           <div class="form-row">
-            <label for="first-name">First Name</label>
-            <input type="text" id="first-name" name="first_name" placeholder="Marcos" required tabindex="1">
+            <div class="label-input">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="first_name" placeholder="Marcos" required tabindex="1">
+            </div>
 
-            <label for="last-name">Last Name</label>
-            <input type="text" name="last_name" id="last-name" placeholder="Tavella" required tabindex="2">
+            <div class="label-input">
+              <label for="last-name">Last Name</label>
+              <input type="text" name="last_name" id="last-name" placeholder="Tavella" required tabindex="2">
+            </div>
           </div>
           
           <div class="form-row">
-            <label for="email">E-Mail</label>
-            <input type="email" name="email" id="email" placeholder="something@example.com" required tabindex="3">
+            <div class="label-input">
+              <label for="email">E-Mail</label>
+              <input type="email" name="email" id="email" placeholder="something@example.com" required tabindex="3">
+            </div>
 
-            <label for="phone-number">Phone Number</label>
-            <input type="tel" name="phone_number" id="phone-number" placeholder="221-334-9904" tabindex="4" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$">
+            <div class="label-input">
+              <label for="phone-number">Phone Number</label>
+              <input type="tel" name="phone_number" id="phone-number" placeholder="221-334-9904" tabindex="4" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$">
+            </div>
           </div>
           
           <div class="form-row">
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" required tabindex="5">
+            <div class="label-input">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" required tabindex="5">
+            </div>
 
-            <label for="confirm-password">Confirm Password</label>
-            <input type="password" name="confirm_password" id="confirm-password" required tabindex="6">
+            <div class="label-input">
+              <label for="confirm-password">Confirm Password</label>
+              <input type="password" name="confirm_password" id="confirm-password" required tabindex="6">
+            </div>
           </div>
         </form>
         <div class="create-account">
