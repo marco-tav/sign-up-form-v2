@@ -114,8 +114,8 @@ body {
   background-image: url('../resources/greg-rosenke-QtXy0uoJtxs-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 0px -100px;
   width: 100vw;
-  height: 200px;
   z-index: 1000;
 }
 
@@ -154,7 +154,7 @@ body {
 
 .sign-up {
   position: relative;
-  top: 200px;
+  top: 250px;
   min-height: calc(100vh - 200px);
   background-color: darkcyan;
   width: 100vw;
