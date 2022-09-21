@@ -251,3 +251,52 @@ form > .form-row > .label-input > label {
 .create-account > p > a {
   color: white;
 }
+
+@media only screen and (min-width: 850px) {
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    max-width: 1300px;
+  }
+
+  .logo-container {
+    position: relative;
+    width: 35%;
+    background-position: 0px 0px;
+  }
+
+  .logo {
+    position: absolute;
+    top: 200px;
+    height: 180px;
+  }
+
+  .logo > img {
+    height: 140px;
+  }
+
+  .logo > p {
+    font-size: 3.3rem;
+  }
+
+  #image-credit,
+  #image-credit > a {
+    font-size: 0.9rem;
+    color: rgb(230, 230, 230);
+  }
+
+  .sign-up {
+    top: 0px;
+    min-width: 65%;
+  }
+}
