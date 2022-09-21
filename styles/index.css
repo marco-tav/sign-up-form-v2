@@ -154,7 +154,7 @@ body {
 
 .sign-up {
   position: relative;
-  top: 250px;
+  top: 200px;
   min-height: calc(100vh - 200px);
   background-color: darkcyan;
   width: 100vw;
@@ -207,7 +207,7 @@ form > .form-row > input {
   font-size: 1rem;
   height: 30px;
   padding-left: 5px;
-  max-width: 350px;
+  max-width: 450px;
 }
 
 form > .form-row > label {
