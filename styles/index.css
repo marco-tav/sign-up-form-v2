@@ -271,7 +271,7 @@ form > .form-row > .label-input > label {
 
   .logo-container {
     position: relative;
-    width: 35%;
+    width: 40%;
     background-position: 0px 0px;
   }
 
@@ -297,6 +297,15 @@ form > .form-row > .label-input > label {
 
   .sign-up {
     top: 0px;
-    min-width: 65%;
+    min-width: 60%;
+  }
+
+  .text-container {
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-right: 20%;
   }
 }
