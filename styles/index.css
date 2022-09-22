@@ -166,12 +166,6 @@ body {
   text-align: left;
 }
 
-@media only screen and (min-width: 450px) {
-  .text-container {
-    text-align: justify;
-  }
-}
-
 .text-container > p:first-child,
 .text-container > p {
   margin-top: 0px;
@@ -252,6 +246,15 @@ form > .form-row > .label-input > label {
   color: white;
 }
 
+/*------------------------- MEDIA QUERIES -----------------------------*/
+/*---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 450px) {
+  .text-container {
+    text-align: justify;
+  }
+}
+
 @media only screen and (min-width: 850px) {
   body {
     display: flex;
@@ -277,7 +280,7 @@ form > .form-row > .label-input > label {
 
   .logo {
     position: absolute;
-    top: 200px;
+    top: 150px;
     height: 180px;
   }
 
@@ -301,11 +304,36 @@ form > .form-row > .label-input > label {
   }
 
   .text-container {
-    height: 380px;
+    height: 330px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     gap: 30px;
     padding-right: 20%;
+    padding-left: 30px;
+  }
+
+  form {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 30px;
+  }
+
+  form > .form-row {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  input {
+    width: 250px;
+  }
+
+  .create-account {
+    align-items: flex-start;
+    padding-left: 30px;
   }
 }
