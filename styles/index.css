@@ -282,6 +282,7 @@ form > .form-row > .label-input > label {
     position: absolute;
     top: 150px;
     height: 180px;
+    backdrop-filter: blur(3px);
   }
 
   .logo > img {
