@@ -205,6 +205,18 @@ form > .form-row > .label-input > input {
   max-width: 550px;
 }
 
+form > .form-row > .label-input > input:valid {
+  border: 2px solid green;
+}
+
+form > .form-row > .label-input > input:invalid {
+  border: 2px solid red;
+}
+
+form > .form-row > .label-input > input:placeholder-shown {
+  border: 1px solid gray;
+}
+
 form > .form-row > .label-input > label {
   font-family: 'IBM Plex Sans';
   font-size: 1.1rem;
