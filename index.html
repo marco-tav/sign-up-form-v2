@@ -28,23 +28,25 @@
       <div class="form-container">
         
         <form action="" method="get" id="sign-up-form">
+          <p>Required items will be marked with *</p>
+
           <div class="form-row">
             <div class="label-input">
-              <label for="first-name">First Name</label>
+              <label for="first-name">First Name <span aria-label="required">*</span></label>
               <input type="text" id="first-name" name="first_name" placeholder="Marco" required tabindex="1">
               <span></span>
             </div>
 
             <div class="label-input">
               <label for="last-name">Last Name</label>
-              <input type="text" name="last_name" id="last-name" placeholder="Tavella" required tabindex="2">
+              <input type="text" name="last_name" id="last-name" placeholder="Tavella" tabindex="2">
               <span></span>
             </div>
           </div>
           
           <div class="form-row">
             <div class="label-input">
-              <label for="email">E-Mail</label>
+              <label for="email">E-Mail <span aria-label="required">*</span></label>
               <input type="email" name="email" id="email" placeholder="something@example.com" required tabindex="3">
               <span></span>
             </div>
@@ -58,13 +60,13 @@
           
           <div class="form-row">
             <div class="label-input">
-              <label for="password">Password</label>
+              <label for="password">Password <span aria-label="required">*</span></label>
               <input type="password" id="password" name="password" required tabindex="5" minlength="8" maxlength="80" placeholder=" ">
               <span></span>
             </div>
 
             <div class="label-input">
-              <label for="confirm-password">Confirm Password</label>
+              <label for="confirm-password">Confirm Password <span aria-label="required">*</span></label>
               <input type="password" name="confirm_password" id="confirm-password" required tabindex="6" minlength="8" maxlength="80" placeholder=" ">
               <span></span>
             </div>
