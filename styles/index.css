@@ -338,7 +338,7 @@ form > .form-row > .label-input > label {
   form > .form-row {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 50px;
   }
 
   input {
