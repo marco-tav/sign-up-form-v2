@@ -217,7 +217,7 @@ form > .form-row > .label-input > input {
 }
 
 form > .form-row > .label-input > input:valid {
-  border: 2px solid green;
+  border: 3px solid green;
 }
 
 form > .form-row > .label-input > input:invalid + span::after {
@@ -239,11 +239,7 @@ form > .form-row > .label-input > input:valid + span::after {
 }
 
 form > .form-row > .label-input > input:invalid {
-  border: 2px solid red;
-}
-
-form > .form-row > .label-input > input:placeholder-shown {
-  border: 1px solid gray;
+  border: 3px solid red;
 }
 
 form > .form-row > .label-input > label {
