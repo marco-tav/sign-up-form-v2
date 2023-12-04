@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/index.css">
   <link rel="icon" href="resources/odin-lined.png">
+  <script src="scripts/passwords.js" defer></script>
 </head>
 
 <body>
@@ -68,12 +69,12 @@
             <div class="label-input">
               <label for="confirm-password">Confirm Password <span aria-label="required">*</span></label>
               <input type="password" name="confirm_password" id="confirm-password" required tabindex="6" minlength="8" maxlength="80" placeholder=" ">
-              <span></span>
+              <span id="confirm-password-span"></span>
             </div>
           </div>
         </form>
         <div class="create-account">
-          <button form="sign-up-form" type="submit">Create Account</button>
+          <button form="sign-up-form" type="submit" id="submit">Create Account</button>
           <p>Already have an account? <a href="#" class="log-in">Log in</a></p>
         </div>
       </div>

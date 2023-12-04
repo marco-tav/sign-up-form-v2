@@ -220,7 +220,7 @@ form > .form-row > .label-input > input:valid {
   border: 3px solid green;
 }
 
-form > .form-row > .label-input > input:invalid + span::after {
+form > .form-row > .label-input > input:invalid + span:not(#confirm-password-span)::after {
   position: absolute;
   right: -25px;
   top: 30px;
@@ -229,7 +229,7 @@ form > .form-row > .label-input > input:invalid + span::after {
   font-size: 1.2rem;
 }
 
-form > .form-row > .label-input > input:valid + span::after {
+form > .form-row > .label-input > input:valid + span:not(#confirm-password-span)::after {
   position: absolute;
   right: -25px;
   top: 30px;
@@ -246,7 +246,7 @@ form > .form-row > .label-input > input:placeholder-shown {
   border: 2px solid gray;
 }
 
-form > .form-row > .label-input > input:placeholder-shown + span::after {
+form > .form-row > .label-input > input:placeholder-shown + span:not(#confirm-password-span)::after {
   content: "";
 }
 
@@ -276,6 +276,11 @@ form > .form-row > .label-input > label {
   font-size: 1.1rem;
   font-weight: 600;
   color: white;
+}
+
+.create-account > button[disabled] {
+  background-color: lightgray;
+  color: darkslategrey;
 }
 
 .create-account > button:hover {
