@@ -246,6 +246,10 @@ form > .form-row > .label-input > input:placeholder-shown {
   border: 2px solid gray;
 }
 
+form > .form-row > .label-input > input:placeholder-shown + span::after {
+  content: "";
+}
+
 form > .form-row > .label-input > label {
   font-family: 'IBM Plex Sans';
   font-size: 1.1rem;
